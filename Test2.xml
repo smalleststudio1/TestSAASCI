@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <com.nirima.jenkins.plugins.docker.DockerJobProperty plugin="docker-plugin@0.9.3">
+      <tagOnCompletion>false</tagOnCompletion>
+      <additionalTag></additionalTag>
+      <pushOnSuccess>false</pushOnSuccess>
+      <cleanImages>true</cleanImages>
+    </com.nirima.jenkins.plugins.docker.DockerJobProperty>
+    <com.coravy.hudson.plugins.github.GithubProjectProperty plugin="github@1.11.3">
+      <projectUrl>https://github.com/smalleststudio1/TestSAASCI/</projectUrl>
+    </com.coravy.hudson.plugins.github.GithubProjectProperty>
+  </properties>
+  <scm class="hudson.plugins.git.GitSCM" plugin="git@2.3.5">
+    <configVersion>2</configVersion>
+    <userRemoteConfigs>
+      <hudson.plugins.git.UserRemoteConfig>
+        <url>https://github.com/smalleststudio1/TestSAASCI.git</url>
+      </hudson.plugins.git.UserRemoteConfig>
+    </userRemoteConfigs>
+    <branches>
+      <hudson.plugins.git.BranchSpec>
+        <name>*/master</name>
+      </hudson.plugins.git.BranchSpec>
+      <hudson.plugins.git.BranchSpec>
+        <name>*/test</name>
+      </hudson.plugins.git.BranchSpec>
+    </branches>
+    <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+    <submoduleCfg class="list"/>
+    <extensions/>
+  </scm>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.plugins.xshell.XShellBuilder plugin="xshell@0.10">
+      <commandLine>python hello.py</commandLine>
+      <executeFromWorkingDir>false</executeFromWorkingDir>
+      <regexToKill></regexToKill>
+      <timeAllocated></timeAllocated>
+    </hudson.plugins.xshell.XShellBuilder>
+    <hudson.tasks.Shell>
+      <command>echo $BUILD_NUMBER
+</command>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers>
+    <join.JoinTrigger plugin="join@1.15">
+      <joinProjects>Test_UT</joinProjects>
+      <joinPublishers/>
+      <evenIfDownstreamUnstable>false</evenIfDownstreamUnstable>
+    </join.JoinTrigger>
+    <hudson.tasks.ArtifactArchiver>
+      <artifacts>hello.py</artifacts>
+      <allowEmptyArchive>false</allowEmptyArchive>
+      <onlyIfSuccessful>false</onlyIfSuccessful>
+      <fingerprint>false</fingerprint>
+      <defaultExcludes>true</defaultExcludes>
+    </hudson.tasks.ArtifactArchiver>
+    <hudson.tasks.Mailer plugin="mailer@1.11">
+      <recipients>juyi_huang@trend.com.tw</recipients>
+      <dontNotifyEveryUnstableBuild>false</dontNotifyEveryUnstableBuild>
+      <sendToIndividuals>true</sendToIndividuals>
+    </hudson.tasks.Mailer>
+  </publishers>
+  <buildWrappers/>
+</project>
