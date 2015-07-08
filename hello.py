@@ -1,5 +1,5 @@
 #:\Python27\python.exe
 #-*- coding:utf-8 -*-
 
-text="hello10"
+text="hello11"
 print (text)
