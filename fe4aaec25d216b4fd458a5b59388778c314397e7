@@ -1,11 +1,11 @@
 {
   "built_on": "ubuntuAMI (i-1ed7eedc)",
-  "duration": 5.117000109,
-  "full_display_name": "DockerDemo_1.0 #4",
-  "id": "4",
-  "number": 4,
+  "duration": 5.076000008,
+  "full_display_name": "DockerDemo_1.0 #5",
+  "id": "5",
+  "number": 5,
   "result": "FAILURE",
   "status_message": "?",
-  "time": "2015-07-28 18:40:19 +0900",
-  "url": "job/DockerDemo_1.0/4/"
+  "time": "2015-07-28 18:41:54 +0900",
+  "url": "job/DockerDemo_1.0/5/"
 }
