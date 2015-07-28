@@ -1,11 +1,11 @@
 {
-  "built_on": "ubuntuAMI (i-2d340def)",
-  "duration": 3.493000116,
-  "full_display_name": "DemoProject #11",
-  "id": "11",
-  "number": 11,
+  "built_on": "ubuntuAMI (i-5df8c19f)",
+  "duration": 8.385000111,
+  "full_display_name": "DemoProject #12",
+  "id": "12",
+  "number": 12,
   "result": "SUCCESS",
   "status_message": "?",
-  "time": "2015-07-28 13:20:22 +0900",
-  "url": "job/DemoProject/11/"
+  "time": "2015-07-28 15:49:03 +0900",
+  "url": "job/DemoProject/12/"
 }
