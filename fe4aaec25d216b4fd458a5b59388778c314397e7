@@ -1,11 +1,11 @@
 {
-  "built_on": "ubuntuAMI (i-c1041803)",
-  "duration": 7.717000048,
-  "full_display_name": "DemoProject #17",
-  "id": "17",
-  "number": 17,
+  "built_on": "ERS_Ubuntu (i-00372bc2)",
+  "duration": 7.138999926,
+  "full_display_name": "DemoProject #18",
+  "id": "18",
+  "number": 18,
   "result": "SUCCESS",
   "status_message": "?",
-  "time": "2015-08-11 18:11:25 +0900",
-  "url": "job/DemoProject/17/"
+  "time": "2015-08-11 19:11:12 +0900",
+  "url": "job/DemoProject/18/"
 }
