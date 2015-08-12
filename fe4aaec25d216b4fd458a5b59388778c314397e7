@@ -1,11 +1,11 @@
 {
-  "built_on": "WRS_ubuntu (i-4ba22d99)",
-  "duration": 44.627000076,
-  "full_display_name": "WRS_DemoProject #2",
-  "id": "2",
-  "number": 2,
+  "built_on": "ERS_Ubuntu (i-5b2a3499)",
+  "duration": 8.337000101,
+  "full_display_name": "ERS_DemoProject #1",
+  "id": "1",
+  "number": 1,
   "result": "SUCCESS",
   "status_message": "?",
-  "time": "2015-08-12 18:07:32 +0900",
-  "url": "job/WRS_DemoProject/2/"
+  "time": "2015-08-12 18:56:36 +0900",
+  "url": "job/ERS_DemoProject/1/"
 }
