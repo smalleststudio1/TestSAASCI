@@ -1,11 +1,11 @@
 {
-  "built_on": "ERS_Ubuntu (i-853e2047)",
-  "duration": 5.077000059,
-  "full_display_name": "ERS_DemoProject #2",
+  "built_on": "SPN_Ubuntu (i-0a3f21c8)",
+  "duration": 11.294000116,
+  "full_display_name": "SPN_DemoProject #2",
   "id": "2",
   "number": 2,
   "result": "SUCCESS",
   "status_message": "?",
-  "time": "2015-08-12 18:04:28 +0900",
-  "url": "job/ERS_DemoProject/2/"
+  "time": "2015-08-12 18:07:11 +0900",
+  "url": "job/SPN_DemoProject/2/"
 }
