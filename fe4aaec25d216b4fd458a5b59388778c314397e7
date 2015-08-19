@@ -1,11 +1,11 @@
 {
-  "built_on": "ERS_Ubuntu (i-08fc13cd)",
-  "duration": 16.936999969,
-  "full_display_name": "DemoProject #27",
-  "id": "27",
-  "number": 27,
+  "built_on": "ERS_Ubuntu (i-07f718c2)",
+  "duration": 16.242000057,
+  "full_display_name": "DemoProject #28",
+  "id": "28",
+  "number": 28,
   "result": "UNSTABLE",
   "status_message": "?",
-  "time": "2015-08-19 17:58:57 +0900",
-  "url": "job/DemoProject/27/"
+  "time": "2015-08-19 18:11:52 +0900",
+  "url": "job/DemoProject/28/"
 }
