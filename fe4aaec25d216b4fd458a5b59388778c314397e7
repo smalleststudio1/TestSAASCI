@@ -1,11 +1,11 @@
 {
   "built_on": "master",
-  "duration": 2.549000069,
-  "full_display_name": "DemoProject #58",
-  "id": "58",
-  "number": 58,
-  "result": "UNSTABLE",
+  "duration": 3.981000103,
+  "full_display_name": "DemoProject #59",
+  "id": "59",
+  "number": 59,
+  "result": "SUCCESS",
   "status_message": "?",
-  "time": "2015-08-20 17:01:07 +0900",
-  "url": "job/DemoProject/58/"
+  "time": "2015-08-20 17:21:21 +0900",
+  "url": "job/DemoProject/59/"
 }
