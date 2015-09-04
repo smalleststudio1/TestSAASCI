@@ -1,0 +1,35 @@
+I, [2015-09-04T15:27:21.163839 #80140]  INFO -- Kitchen: -----> Starting Kitchen (v1.4.2)
+E, [2015-09-04T15:27:21.167246 #80140] ERROR -- Kitchen: ------Exception-------
+E, [2015-09-04T15:27:21.167306 #80140] ERROR -- Kitchen: Class: Kitchen::ClientError
+E, [2015-09-04T15:27:21.167333 #80140] ERROR -- Kitchen: Message: Could not load the 'vagrant' driver from the load path. Please ensure that your driver is installed as a gem or included in your Gemfile if using Bundler.
+E, [2015-09-04T15:27:21.167351 #80140] ERROR -- Kitchen: ---Nested Exception---
+E, [2015-09-04T15:27:21.167397 #80140] ERROR -- Kitchen: Class: LoadError
+E, [2015-09-04T15:27:21.167417 #80140] ERROR -- Kitchen: Message: cannot load such file -- kitchen/driver/vagrant
+E, [2015-09-04T15:27:21.167434 #80140] ERROR -- Kitchen: ------Backtrace-------
+E, [2015-09-04T15:27:21.167451 #80140] ERROR -- Kitchen: /Library/Ruby/Gems/2.0.0/gems/test-kitchen-1.4.2/lib/kitchen/driver.rb:50:in `rescue in for_plugin'
+E, [2015-09-04T15:27:21.167467 #80140] ERROR -- Kitchen: /Library/Ruby/Gems/2.0.0/gems/test-kitchen-1.4.2/lib/kitchen/driver.rb:40:in `for_plugin'
+E, [2015-09-04T15:27:21.167499 #80140] ERROR -- Kitchen: /Library/Ruby/Gems/2.0.0/gems/test-kitchen-1.4.2/lib/kitchen/config.rb:226:in `new_driver'
+E, [2015-09-04T15:27:21.167531 #80140] ERROR -- Kitchen: /Library/Ruby/Gems/2.0.0/gems/test-kitchen-1.4.2/lib/kitchen/config.rb:239:in `new_instance'
+E, [2015-09-04T15:27:21.167561 #80140] ERROR -- Kitchen: /Library/Ruby/Gems/2.0.0/gems/test-kitchen-1.4.2/lib/kitchen/config.rb:135:in `block in build_instances'
+E, [2015-09-04T15:27:21.167590 #80140] ERROR -- Kitchen: /Library/Ruby/Gems/2.0.0/gems/test-kitchen-1.4.2/lib/kitchen/config.rb:134:in `map'
+E, [2015-09-04T15:27:21.167608 #80140] ERROR -- Kitchen: /Library/Ruby/Gems/2.0.0/gems/test-kitchen-1.4.2/lib/kitchen/config.rb:134:in `with_index'
+E, [2015-09-04T15:27:21.167625 #80140] ERROR -- Kitchen: /Library/Ruby/Gems/2.0.0/gems/test-kitchen-1.4.2/lib/kitchen/config.rb:134:in `build_instances'
+E, [2015-09-04T15:27:21.167641 #80140] ERROR -- Kitchen: /Library/Ruby/Gems/2.0.0/gems/test-kitchen-1.4.2/lib/kitchen/config.rb:110:in `instances'
+E, [2015-09-04T15:27:21.167658 #80140] ERROR -- Kitchen: /Library/Ruby/Gems/2.0.0/gems/test-kitchen-1.4.2/lib/kitchen/command.rb:115:in `filtered_instances'
+E, [2015-09-04T15:27:21.167674 #80140] ERROR -- Kitchen: /Library/Ruby/Gems/2.0.0/gems/test-kitchen-1.4.2/lib/kitchen/command.rb:145:in `parse_subcommand'
+E, [2015-09-04T15:27:21.167706 #80140] ERROR -- Kitchen: /Library/Ruby/Gems/2.0.0/gems/test-kitchen-1.4.2/lib/kitchen/command/action.rb:38:in `block in call'
+E, [2015-09-04T15:27:21.167723 #80140] ERROR -- Kitchen: /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/benchmark.rb:281:in `measure'
+E, [2015-09-04T15:27:21.167739 #80140] ERROR -- Kitchen: /Library/Ruby/Gems/2.0.0/gems/test-kitchen-1.4.2/lib/kitchen/command/action.rb:37:in `call'
+E, [2015-09-04T15:27:21.167755 #80140] ERROR -- Kitchen: /Library/Ruby/Gems/2.0.0/gems/test-kitchen-1.4.2/lib/kitchen/cli.rb:56:in `perform'
+E, [2015-09-04T15:27:21.167771 #80140] ERROR -- Kitchen: /Library/Ruby/Gems/2.0.0/gems/test-kitchen-1.4.2/lib/kitchen/cli.rb:171:in `block (2 levels) in <class:CLI>'
+E, [2015-09-04T15:27:21.167786 #80140] ERROR -- Kitchen: /Library/Ruby/Gems/2.0.0/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+E, [2015-09-04T15:27:21.167802 #80140] ERROR -- Kitchen: /Library/Ruby/Gems/2.0.0/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+E, [2015-09-04T15:27:21.167818 #80140] ERROR -- Kitchen: /Library/Ruby/Gems/2.0.0/gems/test-kitchen-1.4.2/lib/kitchen/cli.rb:308:in `invoke_task'
+E, [2015-09-04T15:27:21.167834 #80140] ERROR -- Kitchen: /Library/Ruby/Gems/2.0.0/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+E, [2015-09-04T15:27:21.167862 #80140] ERROR -- Kitchen: /Library/Ruby/Gems/2.0.0/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+E, [2015-09-04T15:27:21.167876 #80140] ERROR -- Kitchen: /Library/Ruby/Gems/2.0.0/gems/test-kitchen-1.4.2/bin/kitchen:13:in `block in <top (required)>'
+E, [2015-09-04T15:27:21.167903 #80140] ERROR -- Kitchen: /Library/Ruby/Gems/2.0.0/gems/test-kitchen-1.4.2/lib/kitchen/errors.rb:154:in `with_friendly_errors'
+E, [2015-09-04T15:27:21.167919 #80140] ERROR -- Kitchen: /Library/Ruby/Gems/2.0.0/gems/test-kitchen-1.4.2/bin/kitchen:13:in `<top (required)>'
+E, [2015-09-04T15:27:21.167934 #80140] ERROR -- Kitchen: /usr/bin/kitchen:23:in `load'
+E, [2015-09-04T15:27:21.167947 #80140] ERROR -- Kitchen: /usr/bin/kitchen:23:in `<main>'
+E, [2015-09-04T15:27:21.167961 #80140] ERROR -- Kitchen: ----------------------
