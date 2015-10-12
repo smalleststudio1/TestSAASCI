@@ -1,0 +1,18 @@
+this is chef solo project to install Jenkins
+list of main source code
+cookbooks 
+	iptables (setup iptables ,download from chef supermarket)
+	selinux (setup selinux ,download from chef supermarket)
+	jenkins (install jenkins)
+		attributes
+			default.rb (variables of main recipe)
+		recipes
+			default.rb (main recipe)
+		templates
+			default
+				http8080.erb (iptables setup template)
+nodes
+	192.168.146.192.json (target host , and cookbooks lists )
+
+
+
